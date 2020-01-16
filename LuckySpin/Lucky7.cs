@@ -28,7 +28,7 @@ namespace LuckySpin
             string output = String.Format(
                     "<button onclick='history.go(0)'>Spin</button>" +
                     $"<div>{a}</div><div>{b}</div><div>{c}</div>" +
-                    $"<h1> Lucky {luck} Seven </h1>{image}");
+                    $"<h1> Lucky {luck} </h1>{image}");
             return output;
         }
     }
